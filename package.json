@@ -1,0 +1,10 @@
+{
+  "name": "Omnifood - Never cook again!",
+  "version": "1.0.0",
+  "description": "A healthy meal delivered to your door, every single day",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "sypanchal1810",
+  "license": "ISC"
+}
