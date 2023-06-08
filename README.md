@@ -48,7 +48,7 @@ one or two meals per day, every single day of the month.
 
 ### Summary
 
-![Omnifood-Logo](img/omnifood-logo.png "Omnifood-Logo")
+![Omnifood-Logo](img/omnifood-logo.png 'Omnifood-Logo')
 
 **_A healthy meal delivered to your door, every single day_**
 
@@ -69,20 +69,20 @@ refund unused days.
 
 **Your daily dose of health in 3 simple steps:-**
 
-![Tell us what you like (and what not):](img/app/app-screen-1.png "Tell us what you like (and what not):")
+![Tell us what you like (and what not):](img/app/app-screen-1.png 'Tell us what you like (and what not):')
 
 Tell us what you like (and what not): Never again waste time thinking about what
 to eat! Omnifood AI will create a 100% personalized weekly meal plan just for
 you. It makes sure you get all the nutrients and vitamins you need, no matter
 what diet you follow!
 
-![Approve your weekly meal plan:](img/app/app-screen-2.png "Approve your weekly meal plan:")
+![Approve your weekly meal plan:](img/app/app-screen-2.png 'Approve your weekly meal plan:')
 
 Approve your weekly meal plan: Once per week, approve the meal plan generated
 for you by Omnifood AI. You can change ingredients, swap entire meals, or even
 add your own recipes.
 
-![Receive meals at convenient time:](img/app/app-screen-3.png "Receive meals at convenient time:")
+![Receive meals at convenient time:](img/app/app-screen-3.png 'Receive meals at convenient time:')
 
 Receive meals at convenient time: Best chefs in town will cook your selected
 meal every day, and we will deliver it to your door whenever works best for you.
@@ -104,7 +104,7 @@ You can change delivery schedule and address daily!
 
 ##### Omnifood AI chooses from 5,000+ recipes
 
-![Meal-1: Japanese Gyozas](img/meals/meal-1.jpg "Meal-1: Japanese Gyozas")
+![Meal-1: Japanese Gyozas](img/meals/meal-1.jpg 'Meal-1: Japanese Gyozas')
 
 **_Meal 1: Japanese Gyozas_**
 
@@ -114,7 +114,7 @@ You can change delivery schedule and address daily!
 - Average rating: 4.9
 - Number reviews: 537
 
-![Meal 2: Avocado Salad](img/meals/meal-2.jpg "Meal 2: Avocado Salad")
+![Meal 2: Avocado Salad](img/meals/meal-2.jpg 'Meal 2: Avocado Salad')
 
 **_Meal 2: Avocado Salad_**
 
@@ -157,7 +157,7 @@ You can change delivery schedule and address daily!
 
 ### We offer a free sample meal
 
-![Women Eating](img/eating.jpg "Women Eating")
+![Women Eating](img/eating.jpg 'Women Eating')
 
 Healthy, tasty and hassle-free meals are waiting for you. Start eating well
 today. You can cancel or pause anytime. And the first meal is on us!

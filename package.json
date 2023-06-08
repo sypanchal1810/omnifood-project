@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "A healthy meal delivered to your door, every single day",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "format": "prettier --write **/**.**"
   },
   "author": "sypanchal1810",
   "license": "ISC",
   "dependencies": {
     "sweetalert2": "^11.7.11"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
