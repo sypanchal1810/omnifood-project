@@ -748,8 +748,7 @@
           },
           body: new URLSearchParams(formData).toString(),
         })
-          .then(data => {
-            console.log(data);
+          .then(() => {
             Swal.fire({
               icon: 'success',
               title: 'Success',
