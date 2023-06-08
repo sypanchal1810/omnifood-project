@@ -24,6 +24,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
+    <!--Sweetalert-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css"
+    />
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -724,5 +730,36 @@
         </nav>
       </div>
     </footer>
+
+    <!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+      document.querySelector('form').addEventListener('submit', e => {
+        e.preventDefault();
+
+        const myForm = e.target;
+        const formData = new FormData(myForm);
+
+        fetch('/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: new URLSearchParams(formData).toString(),
+        })
+          .then(data => {
+            console.log(data);
+            Swal.fire({
+              icon: 'success',
+              title: 'Success',
+              text: 'You have successfully booked your meal 😀',
+            }).then(res => {
+              location.reload(true);
+            });
+          })
+          .catch(error => alert(error));
+      });
+    </script>
   </body>
 </html>
