@@ -92,6 +92,8 @@ checkFlexGap();
 
 ///////////////////////////////////////////////////////////
 // Form Submission (Only works with netlify)
+// CommonJS
+const Swal = require("sweetalert2");
 
 const handleSubmit = (e) => {
   e.preventDefault();
